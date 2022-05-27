@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/welcome/welcome",
+    "pages/posts/posts",
+    "pages/sort/sort",
+    "pages/person/person"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#f3b59c"
+  },
+  "sitemapLocation": "sitemap.json",
+ "tabBar": {
+   "color": "#999",
+   "selectedColor": "#ff2d4a",
+   "backgroundColor": "fafafa",
+   "position": "bottom",
+   "borderStyle": "black",
+   "list": [{
+     "pagePath": "pages/posts/posts",
+     "text": "首页",
+     "iconPath": "./images/page.png",
+     "selectedIconPath": "./images/select-page.png"
+   },
+   {
+     "pagePath": "pages/sort/sort",
+      "text": "推荐",
+      "iconPath": "./images/sort.png",
+      "selectedIconPath": "./images/select-sort.png"
+   },{
+    "pagePath": "pages/person/person",
+    "text": "个人中心",
+    "iconPath": "./images/person.png",
+    "selectedIconPath": "./images/select-person.png"
+   }]
+ },
+  "usingComponents": {
+    "l-icon": "./miniprogram_npm/lin-ui/icon/index",
+    "l-list":"./miniprogram_npm/lin-ui/list/index",
+    "l-search-bar":"./miniprogram_npm/lin-ui/search-bar/index",
+    "l-price":"./miniprogram_npm/lin-ui/price/index",
+    "l-card":"./miniprogram_npm/lin-ui/card/index",
+    "l-water-flow":"./miniprogram_npm/lin-ui/water-flow"
+  }
+}

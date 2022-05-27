@@ -1,0 +1,34 @@
+<view>
+  <swiper interval="{{3000}}" circular indicator-dots="{{true}}" autoplay="{{true}}">
+    <swiper-item>
+    
+        <image src="../../images/p1.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+        <image src="../../images/p2.jpg"></image>
+    </swiper-item>  
+    <swiper-item>
+        <image src="../../images/p3.jpg"></image>
+    </swiper-item>
+  </swiper>
+  <block wx:for="{{posts}}">
+    <view class="posts-container">
+      
+      
+    
+      
+
+      <image class="posts-image" src="{{item.imgSrc}}"></image>
+
+      <text class="posts-content">{{item.postsContent}}</text>
+
+      <view class="posts-like">      
+        <l-icon class="posts-like-image" color="#666" size="28" name="favor"/>
+        <text class="posts-like-font">{{item.connection}}</text>
+        <l-icon class="posts-like-image" color="#666" size="32" name="eye"/>
+        <text class="posts-like-font">{{item.watch}}</text>
+      </view>
+    </view>
+  </block>
+  
+</view>

@@ -1,0 +1,14 @@
+<!--pages/person/person.wxml-->
+<view class="top">
+    <image class="avater" src="../../images/tx.jpg"></image>
+</view>
+<view class="p-list">
+
+<l-list title="喜欢" icon="like" />
+<l-list title="收藏" dot-badge="{{true}}" icon="favor" />
+<l-list title="我的订单" icon="order" />
+  <l-list title="消息" icon="notification"
+    badge-count="999" badge-position="right"  />
+<l-list title="地址" icon="address" />
+<l-list title="联系客服" icon="customer-service" />
+</view>

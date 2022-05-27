@@ -1,0 +1,7 @@
+<view class="container1">
+  <image class="avater" src="../../images/logo.jpeg"></image>
+  <text class="motto">{{title}}</text>
+  <view class="container2">
+    <text bindtap="onTap" class="container3">{{a}}</text>
+  </view>
+</view>

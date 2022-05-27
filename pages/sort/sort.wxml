@@ -1,0 +1,35 @@
+<view class="search">
+
+<l-search-bar  placeholder="搜索目的地" bg-color="#f6f6f6"shape="circle"front-text="攻略"/>
+
+</view>
+
+    <view class="container">
+        <view >
+            <image class="img1" src="../../images/图1.png"></image>
+            <image class="img1" src="../../images/图2.png"></image>  
+            <image class="img1" src="../../images/图 3.png"></image>
+            <image class="img1" src="../../images/图4.png"></image>  
+            <image class="img1" src="../../images/图层 5.png"></image>
+           
+        </view>
+        <view >
+          <text class="text1"> 门  票</text>
+           <text class="text3" >当地游</text>
+            <text  class="text1">酒  店</text>
+          <text  class="text3">跟团游</text>
+          <text  class="text1">自由行</text>
+        </view>
+        <view >
+            <image class="img2"src="../../images/图5.png"></image>
+            <image class="img2" src="../../images/图6.png"></image>
+            <image class="img2" src="../../images/图7.png"></image>
+        </view>
+         <text class="text2">热门目的地</text>
+        <view >
+       
+            <image class="img3"src="../../images/图8.png"></image>
+            <image class="img3" src="../../images/图9.png"></image>
+        </view>
+      
+    </view>
